@@ -1,0 +1,51 @@
+div.right{
+  padding: 1em;
+}
+
+div.right > *:nth-child(n+2){
+  margin-top: 3em;
+}
+
+div.right .heading-container{
+  background-color: var(--color-background-dark);
+  border-radius: 1em;
+  box-shadow: 0 0 1em var(--color-shadow-dark);
+  margin: 1em 0;
+}
+
+div.right h2{
+  font-family: var(--font-heading);
+  font-weight: bold;
+  padding: 1em;
+  color: var(--color-text-dark);
+}
+
+div.right .content-container{
+  padding: 0 1em;
+  text-align: justify;
+  font-family: var(--font-sans-serif-n);
+  font-weight: bold;
+}
+
+
+div.right .sub-content{
+  background-color: var(--color-background-light);
+  border-radius: 1em;
+  font-family: var(--font-sans-serif-n);
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+div.right .sub-content ol{
+  text-align: center;
+}
+
+div.right .sub-heading{
+  font-family: var(--font-variable);
+  padding: .5em 1em;
+  margin: 1em auto;
+}
+
+table#education-table td,table#education-table ul{
+  padding: 0 1em;
+}

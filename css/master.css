@@ -1,0 +1,42 @@
+/* imports here */
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose&Bebas+Neue&Playfair+Display&Libre+Baskerville&Comfortaa&Quicksand&Kalam&Mina&Montserrat&display=swap");
+
+:root {
+  --font-heading: "Red Rose", cursive;
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans-serif-n: "Comfortaa", sans-serif;
+  --font-sans-serif-b: "Quicksand", sans-serif;
+  --font-variable: 'Montserrat', sans-serif;
+  --font-cursive: "Kalam", cursive;
+
+  --fontSize-small: 0.75em;
+  --fontSize-normal: 1em;
+  --fontSize-medium: 1.15em;
+  --fontSize-large: 1.25em;
+  --fontSize-XLarge: 1.5em;
+  --fontSize-Heading: 2em;
+
+  --color-secondary: dodgerblue;
+  --color-text-light: #181818;
+  --color-text-dark: rgb(219, 219, 219);
+  --color-background-light: white;
+  /* --color-background-dark: #282c34; */
+  --color-background-dark: #292b2c;
+  --color-border-light: blue;
+  --color-border-dark: red;
+  --color-shadow-light: dodgerblue;
+  --color-shadow-dark: rgb(235, 81, 81);
+
+  --color-button-sort: #009b77;
+  --color-button-random: #34568b;
+  --color-button-search: #92A8D1;
+  --color-button-stop: #ff3333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
